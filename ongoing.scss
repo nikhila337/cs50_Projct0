@@ -1,0 +1,34 @@
+
+      #PLUNDERER{
+        color: red;
+      }
+
+     h1{
+       color: yellow
+     }
+
+     $color:red;
+     h2{
+       color: $color;
+     }
+     .clr{
+       color:$color;
+     }
+
+  .row>div{
+       }
+
+     div{
+       font-size: 18px;
+       p{
+         color: blue;
+       }
+     }
+
+   %message{
+     font-family: sans-serif;
+   }
+   .specificMessage{
+     @extend %message;
+     background-color: teal;
+   }
